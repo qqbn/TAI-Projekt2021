@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.main-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 10%;
+    width: 100%;
+    
+}
+
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+nav{
+    height: 30px;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    text-decoration: underline solid black;
+}
+
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.main-text{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.main-text p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px #25DFBC;
+}
+
+.main-text img{
+    height: 120px;
+}
+
+.main-box{
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.images{
+    width: 90%;
+    height: 60%;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.images-text{
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border-bottom: solid #25DFBC;
+   border-top: solid  #25DFBC ;
+}
+
+.photos{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heart {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.heart a{
+    text-decoration: none;
+    color: black;
+}
+
+.heart a:hover{
+    color: red;
+}
+
