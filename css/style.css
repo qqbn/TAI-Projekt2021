@@ -96,8 +96,8 @@ body{
 }
 
 .imgbox img{
-    height: auto;
-    width: auto;
+    height: 150px;
+    width: 150px;
 }
 
 .register-text{
